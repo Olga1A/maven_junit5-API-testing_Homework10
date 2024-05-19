@@ -12,8 +12,8 @@ public class CalculatorTest {
         // Precondition: Creating instance of Calculator class
         Calculator myCalculator = new Calculator();
 
-        // Add Two values method from the Calculator and provide values
-        double actualValue = myCalculator.addTwoValues(8, 7);
+        // Substract Two values method from the Calculator and provide values
+        double actualValue = myCalculator.substractionOfTwoValues(8, 7);
         assertEquals(1, actualValue);
     }
 
@@ -24,22 +24,25 @@ public class CalculatorTest {
         Calculator myCalculator = new Calculator();
 
         // Add Two values method from the Calculator and provide values
-        double actualValue = myCalculator.addTwoValues(-8, -7);
+        double actualValue = myCalculator.substractionOfTwoValues(-8, -7);
         assertEquals(-1, actualValue);
     }
 
     @Test //Greater test
     public void firstValueIsGreater() {
-        assertTrue(8 > 7);
+        Calculator myCalculator = new Calculator();
+        assertTrue(myCalculator.isGreater(8, 7));
     }
 
-    @Test
+    @Test//Equal test
     public void firstValueIsEqual() {
-        assertFalse(8 == 7);
+        Calculator myCalculator = new Calculator();
+        assertFalse(myCalculator.isGreater(8, 8));
     }
 
     @Test
     public void secondValueIsGreater() {
+        Calculator myCalculator = new Calculator();
         assertFalse(8 < 7);
     }
 }
