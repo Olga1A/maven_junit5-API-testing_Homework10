@@ -43,7 +43,7 @@ public class CalculatorTest {
     @Test
     public void secondValueIsGreater() {
         Calculator myCalculator = new Calculator();
-        assertFalse(8 < 7);
+        assertFalse(myCalculator.isGreater (7,8));
     }
 }
 
