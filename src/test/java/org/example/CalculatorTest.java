@@ -54,7 +54,7 @@ public class CalculatorTest {
     @Test
     public void secondValueIsGreater() {
         Calculator myCalculatorInst = new Calculator();
-        assertFalse(8 < 7);
+        assertFalse(myCalculatorInst.isGreater(7,8));
 
     }
     @Test //Positive test
