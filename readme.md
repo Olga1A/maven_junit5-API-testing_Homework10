@@ -8,6 +8,6 @@
 | 3  | First value is greater then second (Trues assert) | Pass   |
 | 4  | First value is equal then second (False assert)   | Pass   |
 | 5  | Second value is smaller then first (False assert) | Pass   |
-
-
-
+| 6  | Devision of two floating values                   | Pass   |
+| 7  | Multiplication of two floating values             | Pass   |
+| 8  | Squaring a number                                 | Pass   |
