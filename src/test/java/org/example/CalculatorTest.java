@@ -83,6 +83,7 @@ public class CalculatorTest {
     public void squaringOfOneValue() {
         Calculator myCalculatorInst = new Calculator();
         double valueInput = Math.sqrt(5);
+
     }
 }
 
