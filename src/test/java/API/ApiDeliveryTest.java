@@ -41,7 +41,7 @@ public class ApiDeliveryTest {
     }
 
     @Test
-    public void updateCustomerNameInExistingOrder(){
+    public void getCustomerNameWithParameter(){
         int orderIDRequested = 1;
         String amendedOrderDetails = RestAssured
                 .given()
